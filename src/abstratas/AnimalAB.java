@@ -6,8 +6,7 @@ public abstract class AnimalAB implements AnimalIF {
 
   private int quantidadeCaminho;
   private int quantidadeComida;
-  private int quantidadeHorasDormir
-  ;
+  private int quantidadeHorasDormir;
   private String nome;
   private String tipoAnimal;
   private int idade;

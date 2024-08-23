@@ -8,4 +8,18 @@ public class Leao extends AnimalTerrestreAB{
         super(quantidadeCaminho, quantidadeComida, quantidadeHorasDormir);
     }
     
+    @Override
+    public String comer() {
+        return "Comendo " + getQuantidadeComida() + " kg de carne.";
+    }
+
+    @Override
+    public String dormir() {
+        return "Dormindo por " + getQuantidadeHorasDormir() + " dias.";
+    }
+
+    @Override
+    public String moverse() {
+        return "Movendo-se por " + getQuantidadeCaminho() + " kms.";
+    }
 }
